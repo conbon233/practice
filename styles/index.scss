@@ -1,0 +1,121 @@
+                           @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1{
+  color: #FEC108;
+tcarousel-inneralign: center;
+  font-size: 72px;
+font-family: 'Lato', sans-serif;
+font-weight: 800;
+}
+h2{
+  color: #FEC108;
+}
+th{
+  color: #FEC108;
+  font-size: 25px;
+}
+.table{
+  background-color: #ffffff;
+
+}
+h3{
+  color:#23bac3
+}
+td{
+  color: #23bac3;
+}
+footer .jumbotron{
+  background-color: #23bac3;
+border-top: 8px solid #f62384;
+}
+.bg-company-red{
+  background-color: #23bac3;
+border-bottom: 8px solid #f62384;
+}
+
+#carousel-inner{
+   border-style: solid;
+    border-color: coral;
+}
+
+#owner{
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-82cjxNS/0/397bbc0b/L/IMG_0016-L.png");
+background-size: 100%, 100%;
+}
+#surf{
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-xrr8sm3/0/90eb8995/XL/IMG_0010-XL.jpg");
+  background-size: 100%, 100%;
+}
+#contact{
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-PvMWj5W/0/3c6f2126/L/IMG_0015-L.png");
+  background-size: 100%, 100%;
+}
+
+
+body {
+  background: #f5f5f5;
+}
+p{
+  font-family: 'Merriweather' serif; 
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+a:hover {
+  background-color:#f62384 ;
+}
+nav-item {
+ color:#f62384;
+}
+
+#mosaic { 
+   border:5px solid #FEC108;
+}
+
+
+
+
+

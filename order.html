@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <title>Surf's Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-company-red">
+    <a class="navbar-brand" href="#">
+    <img src="https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Richardson/i-Fr3njPw/0/fbedfc7a/XL/SurfsUp2%20%281%29-XL.png" alt="Logo"   style="width:175px; ">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="flavors.html">Available Flavors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photos.html">Photo gallery</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order.html"> Order Online</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contacts.html">Contact Us</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+  <br></br>
+ <center>
+<div class="jumbotron">
+   <img src="https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-Dc7fXcn/0/4f102662/M/Slide3-M.jpg"
+        </div>
+  </center>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        
+<select name="snowcone_order" id="snowcone_order" onchange="setImage(this);" >
+  <option value="default">-- Select One --</option>
+  <option value="orange">Orange</option>
+  <option value="cherry">Cherry</option>
+  <option value="cotton-candy">Cotton Candy</option>
+  <option value="strawberry">Strawberry</option>
+  <option value="watermelon">Watermelon</option>
+  <option value="blue-raspberry">Blue Raspberry</option>
+  <option value="banana">Banana</option>
+ </select>
+        
+        
+      </div>
+        <div class="col-sm-6">
+         <img name="image-swap" src="https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-8bqd5pS/0/8d07dfb1/Ti/orange-Ti.png" style="width:250px;">
+          <img name "image-swap" src="file:///Users/connor.richardson/Desktop/Banana.png" style="width:250px;">
+        </div>
+          <div class="col-sm-0">
+            
+            </div>
+        
+ 
+   </div>
+</div>
+<br></br>
+  <footer>
+    <div class="jumbotron text-center">
+      <p><br> <strong></strong> <a href="info@surfsupshavedice.com"></a></p>
+
+    <a href="https://www.facebook.com/surfsupshavedice/" target="_blank"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" alt="Facebook icon" height="40" width="40"></a>
+    <a href="https://twitter.com/SurfsUpShaveice" target="_blank"><img src="https://www.seeklogo.net/wp-content/uploads/2015/11/twitter-logo.png" alt="Twitter logo" height="40" width="40"></a>
+    <a href="tel: 1+7312255188" role: "button"><img src="https://seeklogo.com/images/P/phone-logo-CA0ABEDEEB-seeklogo.com.png" alt="phone/call icon" height="40" width="40"></a>
+    <a href="mailto:info@surfsupshavedice.com" target="_blank" role="button"><img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/08_mail-512.png" alt="mail icon" height="40" width="40"></a>
+    <div class="social-media">
+    </div>
+
+  </footer>
+                             
+    <script type"javascript"> 
+  function setImage(select)
+  {
+    var image = document.getElementsByName("image-swap")[0];
+    image.src = "/images/" + select.options[select.selectedIndex].value + ".png";      
+  }
+  </script>                           
+                             
+</body>
+
+</html>
