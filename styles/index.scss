@@ -1,9 +1,9 @@
-                           @import url('https://fonts.googleapis.com/css?family=Merriweather');
+                         @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 h1{
   color: #FEC108;
-tcarousel-inneralign: center;
+carousel-inneralign: center;
   font-size: 72px;
 font-family: 'Lato', sans-serif;
 font-weight: 800;
@@ -114,10 +114,12 @@ nav-item {
 }
 
 #mosaic { 
-  padding-bottom: 7px;
+   border:5px solid #FEC108;
+   padding-bottom: 7px;
 }
 
 
 
 
 
+  
