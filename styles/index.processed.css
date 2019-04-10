@@ -29,9 +29,11 @@ td {
   color: #23bac3;
 }
 
-footer .jumbotron {
+footer .jumbotron{
   background-color: #23bac3;
-  border-top: 8px solid #f62384;
+border-top: 8px solid #f62384;
+border-bottom: 8px solid #f62384;
+margin-bottom: 0px;
 }
 
 .bg-company-red {
@@ -111,7 +113,7 @@ body {
   }
 }
 
-a:nav-link:hover {
+a.nav-link:hover {
   background-color: #f62384;
 }
 
