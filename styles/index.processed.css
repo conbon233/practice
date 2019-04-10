@@ -111,7 +111,7 @@ body {
   }
 }
 
-a:hover {
+a:nav-link:hover {
   background-color: #f62384;
 }
 
