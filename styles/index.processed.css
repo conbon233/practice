@@ -118,7 +118,6 @@ a:nav-link:hover {
 nav-item {
   color: #f62384;
 }
-
 #mosaic {
-  border: 5px solid #FEC108;
+   padding-bottom: 7px;
 }
