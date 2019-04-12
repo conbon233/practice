@@ -29,6 +29,10 @@ td {
   color: #23bac3;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+ color: rgba(255,255,255,1); 
+}
+
 footer .jumbotron{
   background-color: #23bac3;
 border-top: 8px solid #f62384;
