@@ -49,16 +49,25 @@ margin-bottom: 0px;
 #owner {
   background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-82cjxNS/0/397bbc0b/L/IMG_0016-L.png");
   background-size: 100%, 100%;
+  min-width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
 }
 
 #surf {
   background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-xrr8sm3/0/90eb8995/XL/IMG_0010-XL.jpg");
   background-size: 100%, 100%;
+  min-width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
 }
 
 #contact {
   background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-PvMWj5W/0/3c6f2126/L/IMG_0015-L.png");
   background-size: 100%, 100%;
+  min-width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
 }
 
 body {
